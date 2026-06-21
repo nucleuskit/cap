@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	captransport "github.com/nucleuskit/nucleus/cap/transport"
+	captransport "github.com/nucleuskit/cap/transport"
 )
 
 func TestNoopClientImplementsClient(t *testing.T) {

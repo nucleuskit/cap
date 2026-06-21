@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	captransport "github.com/nucleuskit/nucleus/cap/transport"
+	captransport "github.com/nucleuskit/cap/transport"
 )
 
 type TransportTargetPolicy func(context.Context, captransport.Target) (captransport.Target, error)
